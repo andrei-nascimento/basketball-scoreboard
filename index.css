@@ -142,8 +142,9 @@ h3 {
     height: 36px;
 
     color: white;
-    background-color: #2196f3;
-    border: none;
+    background-color: #363636;
+    border-style: solid 1px;
+    border-color: white;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 2px 2px 0 rgba(0,0,0,0.5);
