@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url('assets/fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    background-image: url('assets/imgs/baska.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: #363636;
+
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    padding: 4px 54px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+
+#homeScore, #guestScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #F94F6D;
+    background-color: #080001;
+    font-size: 90px;
+    font-family: 'Cursed Timer';
+    
+    margin: 20px 0px;
+    margin-bottom: 0px;
+    width: 155px;
+    height: 120px;
+    padding-top: 14px;
+    border-radius: 5px;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    font-size: 25px;
+    font-family: 'Cursed Timer';
+}
+
+#plus1, #plus2, #plus3 {
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: white;
+
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    cursor: pointer;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+}
+
+#plus1:active, #plus2:active, #plus3:active { 
+    box-shadow: 0 0 0 0 black, inset 2px 2px 2px black; 
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.stopwatch {
+    display: inline;
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 54px;
+    font-family: 'Cursed Timer';
+    margin-top: 12px;
+}
+
+#counter {
+    margin: 0
+}
+
+.sw-btn {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.btn-start {
+    font-family: Roboto;
+    font-size: 20px;
+
+    width: 78px;
+    height: 36px;
+
+    color: white;
+    background-color: #27a337;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+}
+
+.btn-pause {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+
+    width: 78px;
+    height: 36px;
+
+    color: white;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+}
+
+.btn-reset {
+    font-family: Roboto;
+    font-size: 20px;
+
+    width: 78px;
+    height: 36px;
+
+    color: white;
+    background-color: #90312f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+}
+
+.btn-start:active, .btn-pause:active, .btn-reset:active { 
+    box-shadow: 0 0 0 0 black, inset 2px 2px 2px black; 
+}
