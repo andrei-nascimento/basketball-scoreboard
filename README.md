@@ -1,4 +1,4 @@
-# Basketball Scoreboard
+# Basketball Scoreboard 🏀
 
 Esta aplicação trata-se de um sistema de pontos onde o usuário pode inserir 1, 2 ou 3 pontos de acordo com as regras do basquete, tanto para o time da casa como o visitante.
 
